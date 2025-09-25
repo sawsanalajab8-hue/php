@@ -1,0 +1,86 @@
+/* الأساسيات */
+body {
+  font-family: 'Tahoma', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #ffc107 !important;
+}
+
+/* Links */
+.nav-link {
+  transition: all 0.3s ease;
+}
+.nav-link:hover {
+  color: #ffc107 !important;
+}
+
+/* البطاقات */
+.card {
+  border-radius: 15px;
+  border: none;
+}
+.card h3 {
+  color: #333;
+  font-weight: bold;
+}
+
+/* الأزرار */
+.btn {
+  border-radius: 25px;
+  font-weight: bold;
+}
+.btn-primary {
+  background: #0069d9;
+  border: none;
+}
+.btn-primary:hover {
+  background: #0056b3;
+}
+.btn-success {
+  background: #28a745;
+  border: none;
+}
+.btn-success:hover {
+  background: #218838;
+}
+.btn-warning {
+  background: #ffc107;
+  border: none;
+  color: #333;
+}
+.btn-warning:hover {
+  background: #e0a800;
+  color: #fff;
+}
+.btn-danger {
+  background: #dc3545;
+  border: none;
+}
+.btn-danger:hover {
+  background: #c82333;
+}
+
+/* الجداول */
+.table {
+  border-radius: 10px;
+  overflow: hidden;
+}
+.table thead {
+  background-color: #343a40;
+  color: #fff;
+}
+
+/* الفوتر */
+footer {
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
